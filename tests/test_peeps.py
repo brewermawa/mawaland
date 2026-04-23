@@ -20,7 +20,7 @@ class TestMawaPeeps:
         with pytest.raises(ValueError):
             peep.current_role = fake_role
 
-    def tests_returns_correc_role_after_setting(self):
+    def tests_returns_correct_role_after_setting(self):
         peep = Mawapeep()
         peep.current_role = PeepRole.FARMER
 

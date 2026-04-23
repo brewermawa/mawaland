@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 
-from peeps import Mawapeep
+from mawaland.peeps import Mawapeep
 
 
 @dataclass
